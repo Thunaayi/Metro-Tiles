@@ -1,7 +1,7 @@
 {
     "name": "metro-tiles",
     "description": "A React library for creating Windows 8 style Metro tile layouts easily.",
-    "authors": "distrohopper",
+    "authors": "thunaayi",
     "version": "1.0.0",
     "main": "dist/index.cjs",
     "module": "dist/index.js",
