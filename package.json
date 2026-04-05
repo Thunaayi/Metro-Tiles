@@ -1,0 +1,41 @@
+{
+    "name": "metro-tiles",
+    "description": "A React library for creating Windows 8 style Metro tile layouts easily.",
+    "authors": "distrohopper",
+    "version": "1.0.0",
+    "main": "dist/index.cjs",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.js",
+            "require": "./dist/index.cjs"
+        },
+        "./style.css": "./dist/metro-tiles.css"
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc -b && vite build",
+        "lint": "eslint .",
+        "preview": "vite preview",
+        "prepublishOnly": "npm run build"
+    },
+    "peerDependencies": {
+        "react": ">=18",
+        "react-dom": ">=18"
+    },
+    "devDependencies": {
+        "@types/react": "^19.2.14",
+        "@types/react-dom": "^19.2.3",
+        "@vitejs/plugin-react": "^6.0.1",
+        "react": "^19.2.4",
+        "react-dom": "^19.2.4",
+        "typescript": "~5.9.3",
+        "vite": "^8.0.1",
+        "vite-plugin-dts": "^4.5.4"
+    }
+}

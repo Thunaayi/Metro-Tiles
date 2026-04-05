@@ -1,0 +1,135 @@
+.tile {
+    padding: 15px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out;
+    display: flex;
+    align-items: flex-end;
+    user-select: none;
+    min-width: 120px;
+    min-height: 120px;
+    box-sizing: border-box;
+}
+
+.tile:active {
+    transform: perspective(600px) scale(0.96) translateZ(-5px);
+}
+
+.tile-default {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.tile-wide {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.tile-large {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+/* === Tile Colors (Tailwind/Metro equivalent palette) === */
+.tile-blue {
+    background-color: #0078d7;
+}
+
+.tile-green {
+    background-color: #107c10;
+}
+
+.tile-red {
+    background-color: #e81123;
+}
+
+.tile-yellow {
+    background-color: #ffb900;
+    color: #000;
+}
+
+.tile-purple {
+    background-color: #881798;
+}
+
+.tile-orange {
+    background-color: #d83b01;
+}
+
+.tile-pink {
+    background-color: #e3008c;
+}
+
+.tile-cyan {
+    background-color: #00b7c3;
+    color: #000;
+}
+
+.tile-lime {
+    background-color: #84c721;
+    color: #000;
+}
+
+.tile-teal {
+    background-color: #038387;
+}
+
+.tile-indigo {
+    background-color: #464eb8;
+}
+
+.tile-violet {
+    background-color: #744da9;
+}
+
+.tile-fuchsia {
+    background-color: #c239b3;
+}
+
+.tile-rose {
+    background-color: #e51400;
+}
+
+.tile-emerald {
+    background-color: #00cc6a;
+    color: #000;
+}
+
+.tile-sky {
+    background-color: #00ccff;
+    color: #000;
+}
+
+.tile-slate {
+    background-color: #64748b;
+}
+
+.tile-stone {
+    background-color: #78716c;
+}
+
+.tile-neutral {
+    background-color: #737373;
+}
+
+.tile-zinc {
+    background-color: #71717a;
+}
+
+.tile-gray {
+    background-color: #7a7a7a;
+}
+
+.tile-black {
+    background-color: #000000;
+}
+
+.tile-white {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.tile-transparent {
+    background-color: transparent;
+}
